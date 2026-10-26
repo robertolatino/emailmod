@@ -1,0 +1,13 @@
+# Credenciales - nunca subir
+.env
+*.env
+!.env.example
+
+# Excel de entrada, informes y plantilla: llevan datos personales o se generan
+# (la plantilla se crea con: python informe_excel.py plantilla_entrada.xlsx)
+*.xlsx
+~$*
+
+# Python
+__pycache__/
+*.pyc
